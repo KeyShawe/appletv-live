@@ -1,0 +1,54 @@
+name: 每日更新直播源
+
+on:
+  schedule:
+    # GitHub 用的是 UTC 时间；UTC 19:00 = 北京时间次日 03:00
+    - cron: '0 19 * * *'
+    # UTC 07:00 = 北京时间 15:00（下午再补一次，晚高峰前换掉当天失效的源）
+    - cron: '0 7 * * *'
+  workflow_dispatch:      # 允许在网页上手动点一次立即执行
+
+permissions:
+  contents: write         # 需要写权限才能把新 m3u 推回仓库
+
+concurrency:
+  group: update-m3u
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 重新扫描并生成 tv-mini.m3u
+        run: python scripts/gen_m3u.py
+
+      - name: 如有变化则提交回仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tv-mini.m3u
+          if git diff --staged --quiet; then
+            echo "本次无变化，跳过提交"
+          else
+            git commit -m "chore: 自动更新直播源 $(date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      - name: 刷新 jsDelivr 缓存（让 APTV 立刻拿到新版）
+        run: |
+          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/tv-mini.m3u" || true
+
+      - name: 上传本次产物（方便随时下载查看）
+        uses: actions/upload-artifact@v4
+        with:
+          name: tv-mini
+          path: tv-mini.m3u
