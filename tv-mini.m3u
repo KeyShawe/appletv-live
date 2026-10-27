@@ -1,158 +1,144 @@
 #EXTM3U
 #EXT-X-APTV-LATENCY: FALSE
-# 精简直播源 · 央视+广东 · 自动更新于 2026-10-26 22:56 · 全部条目均实测可连接
+# 精简直播源 · 央视+广东 · 自动更新于 2026-10-27 12:59 · 全部条目均实测可连接
 # 每台保留最快的主源 + 备用源（名称带 ·备）；源失效自动被下次扫描剔除
 #EXTINF:-1 tvg-name="CCTV-1 综合" group-title="央视",CCTV-1 综合
-http://74.91.26.218:82/live/cctv1hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-1 综合·备" group-title="央视",CCTV-1 综合·备
 http://198.204.228.26/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-1 综合·备" group-title="央视",CCTV-1 综合·备
 http://74.91.26.218:82/live/cctv10hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-2 财经" group-title="央视",CCTV-2 财经
-http://74.91.26.218:82/live/cctv2hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-2 财经·备" group-title="央视",CCTV-2 财经·备
 http://198.204.228.26/live/cctv2hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-2 财经·备" group-title="央视",CCTV-2 财经·备
-http://107.150.60.122/live/cctv2hd.m3u8
+http://204.12.221.218:8181/3m1080p/cctv2.m3u8
 #EXTINF:-1 tvg-name="CCTV-3 综艺" group-title="央视",CCTV-3 综艺
-http://198.204.228.26/live/cctv3hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-3 综艺·备" group-title="央视",CCTV-3 综艺·备
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-3 综艺·备" group-title="央视",CCTV-3 综艺·备
 http://69.30.245.50/live/cctv3.m3u8
 #EXTINF:-1 tvg-name="CCTV-4 中文国际" group-title="央视",CCTV-4 中文国际
-http://192.151.150.154/live/cctv4hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv4hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-4 中文国际·备" group-title="央视",CCTV-4 中文国际·备
 http://198.204.228.26/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-4 中文国际·备" group-title="央视",CCTV-4 中文国际·备
-http://74.91.26.218:82/live/cctv4hd.m3u8
+http://192.151.150.154/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-5 体育" group-title="央视",CCTV-5 体育
+http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="CCTV-5 体育·备" group-title="央视",CCTV-5 体育·备
+http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-name="CCTV-5 体育·备" group-title="央视",CCTV-5 体育·备
 http://107.150.60.122/live/cctv5hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-5 体育·备" group-title="央视",CCTV-5 体育·备
-http://192.151.150.154/live/cctv5hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-5 体育·备" group-title="央视",CCTV-5 体育·备
-http://192.151.150.154/live/cctv5.m3u8
 #EXTINF:-1 tvg-name="CCTV-5+ 体育赛事" group-title="央视",CCTV-5+ 体育赛事
 http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-5+ 体育赛事·备" group-title="央视",CCTV-5+ 体育赛事·备
-http://192.151.150.154/live/cctv5p.m3u8
-#EXTINF:-1 tvg-name="CCTV-5+ 体育赛事·备" group-title="央视",CCTV-5+ 体育赛事·备
-http://192.151.150.154/live/cctv5plus.m3u8
+http://107.150.60.122/live/cctv5p.m3u8
 #EXTINF:-1 tvg-name="CCTV-6 电影" group-title="央视",CCTV-6 电影
-http://107.150.60.122/live/cctv6hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-6 电影·备" group-title="央视",CCTV-6 电影·备
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-name="CCTV-6 电影·备" group-title="央视",CCTV-6 电影·备
 http://198.204.228.26/live/cctv6hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-7 国防军事" group-title="央视",CCTV-7 国防军事
+http://38.75.136.137:98/gslb/dsdqbv/cctv7hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-name="CCTV-7 国防军事·备" group-title="央视",CCTV-7 国防军事·备
 http://107.150.60.122/live/cctv7hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-7 国防军事·备" group-title="央视",CCTV-7 国防军事·备
-http://74.91.26.218:82/live/cctv7hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-7 国防军事·备" group-title="央视",CCTV-7 国防军事·备
-http://38.75.136.137:98/gslb/dsdqbv/cctv7hd.m3u8?auth=test20251009
+http://192.151.150.154/live/cctv7hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-8 电视剧" group-title="央视",CCTV-8 电视剧
-http://69.30.245.50/live/cctv8.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv8hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-8 电视剧·备" group-title="央视",CCTV-8 电视剧·备
 http://198.204.228.26/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-8 电视剧·备" group-title="央视",CCTV-8 电视剧·备
-http://74.91.26.218:82/live/cctv8hd.m3u8
+http://107.150.60.122/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-9 纪录" group-title="央视",CCTV-9 纪录
+http://38.75.136.137:98/gslb/dsdqbv/cctv9hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-name="CCTV-9 纪录·备" group-title="央视",CCTV-9 纪录·备
 http://74.91.26.218:82/live/cctv9hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-9 纪录·备" group-title="央视",CCTV-9 纪录·备
-http://107.150.60.122/live/cctv9hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-9 纪录·备" group-title="央视",CCTV-9 纪录·备
-http://192.151.150.154/live/cctv9.m3u8
+http://192.151.150.154/live/cctv9hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-10 科教" group-title="央视",CCTV-10 科教
+http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-name="CCTV-10 科教·备" group-title="央视",CCTV-10 科教·备
+http://192.151.150.154/live/cctv10hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-10 科教·备" group-title="央视",CCTV-10 科教·备
 http://74.91.26.218:82/live/cctv10hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-10 科教·备" group-title="央视",CCTV-10 科教·备
-http://107.150.60.122/live/cctv10hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-10 科教·备" group-title="央视",CCTV-10 科教·备
-http://124.228.160.112:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-11 戏曲" group-title="央视",CCTV-11 戏曲
-http://74.91.26.218:82/live/cctv11hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-11 戏曲·备" group-title="央视",CCTV-11 戏曲·备
-http://107.150.60.122/live/cctv11hd.m3u8
+http://38.75.136.137:98/gslb/dsdqpub/cctv11hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="CCTV-11 戏曲·备" group-title="央视",CCTV-11 戏曲·备
 http://192.151.150.154/live/cctv11hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-12 社会与法" group-title="央视",CCTV-12 社会与法
-http://74.91.26.218:82/live/cctv12hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-12 社会与法·备" group-title="央视",CCTV-12 社会与法·备
-http://107.150.60.122/live/cctv12hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-12 社会与法·备" group-title="央视",CCTV-12 社会与法·备
 http://192.151.150.154/live/cctv12hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-12 社会与法·备" group-title="央视",CCTV-12 社会与法·备
+http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-13 新闻" group-title="央视",CCTV-13 新闻
-http://74.91.26.218:82/live/cctv13hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-13 新闻·备" group-title="央视",CCTV-13 新闻·备
-http://107.150.60.122/live/cctv13hd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-name="CCTV-13 新闻·备" group-title="央视",CCTV-13 新闻·备
 http://192.151.150.154/live/cctv13hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-13 新闻·备" group-title="央视",CCTV-13 新闻·备
+http://74.91.26.218:82/live/cctv13hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-14 少儿" group-title="央视",CCTV-14 少儿
+http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-name="CCTV-14 少儿·备" group-title="央视",CCTV-14 少儿·备
 http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-14 少儿·备" group-title="央视",CCTV-14 少儿·备
-http://198.204.228.26/live/cctv14hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-14 少儿·备" group-title="央视",CCTV-14 少儿·备
-http://107.150.60.122/live/cctv14hd.m3u8
+http://192.151.150.154/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-15 音乐" group-title="央视",CCTV-15 音乐
+http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-name="CCTV-15 音乐·备" group-title="央视",CCTV-15 音乐·备
+http://192.151.150.154/live/cctv15hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-15 音乐·备" group-title="央视",CCTV-15 音乐·备
 http://74.91.26.218:82/live/cctv15hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-15 音乐·备" group-title="央视",CCTV-15 音乐·备
-http://198.204.228.26/live/cctv15hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-15 音乐·备" group-title="央视",CCTV-15 音乐·备
-http://107.150.60.122/live/cctv15hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-16 奥林匹克" group-title="央视",CCTV-16 奥林匹克
+http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-name="CCTV-16 奥林匹克·备" group-title="央视",CCTV-16 奥林匹克·备
 http://198.204.228.26/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-16 奥林匹克·备" group-title="央视",CCTV-16 奥林匹克·备
 http://107.150.60.122/live/cctv16hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-16 奥林匹克·备" group-title="央视",CCTV-16 奥林匹克·备
-http://192.151.150.154/live/cctv16.m3u8
 #EXTINF:-1 tvg-name="CCTV-17 农业农村" group-title="央视",CCTV-17 农业农村
+http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009
+#EXTINF:-1 tvg-name="CCTV-17 农业农村·备" group-title="央视",CCTV-17 农业农村·备
 http://74.91.26.218:82/live/cctv17hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-17 农业农村·备" group-title="央视",CCTV-17 农业农村·备
 http://198.204.228.26/live/cctv17hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-17 农业农村·备" group-title="央视",CCTV-17 农业农村·备
-http://107.150.60.122/live/cctv17hd.m3u8
 #EXTINF:-1 tvg-name="广东卫视" group-title="广东",广东卫视
-http://107.150.60.122/live/gdwshd.m3u8
-#EXTINF:-1 tvg-name="广东卫视·备" group-title="广东",广东卫视·备
 http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="广东卫视·备" group-title="广东",广东卫视·备
-http://124.228.160.112:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
+http://74.91.26.218:82/live/gdwshd.m3u8
+#EXTINF:-1 tvg-name="广东卫视·备" group-title="广东",广东卫视·备
+http://107.150.60.122/live/gdwshd.m3u8
 #EXTINF:-1 tvg-name="广东珠江" group-title="广东",广东珠江
-http://107.150.60.122/live/gdzj.m3u8
+http://38.75.136.137:98/gslb/dsdqpub/gdzja.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="广东珠江·备" group-title="广东",广东珠江·备
-http://107.150.60.122/live/gdzja.m3u8
+http://38.75.136.137:98/gslb/dsdqpub/gdzj.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="广东珠江·备" group-title="广东",广东珠江·备
 http://74.91.26.218:82/live/gdzj.m3u8
-#EXTINF:-1 tvg-name="广东体育" group-title="广东",广东体育
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdty
-#EXTINF:-1 tvg-name="广东体育·备" group-title="广东",广东体育·备
-http://38.75.136.137:98/gslb/dsdqpub/gdty.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="广东新闻" group-title="广东",广东新闻
+http://38.75.136.137:98/gslb/dsdqpub/gdxw.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="广东新闻·备" group-title="广东",广东新闻·备
 http://74.91.26.218:82/live/gdxw.m3u8
 #EXTINF:-1 tvg-name="广东新闻·备" group-title="广东",广东新闻·备
 http://107.150.60.122/live/gdxw.m3u8
-#EXTINF:-1 tvg-name="广东新闻·备" group-title="广东",广东新闻·备
-http://38.75.136.137:98/gslb/dsdqpub/gdxw.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="广东民生" group-title="广东",广东民生
-http://107.150.60.122/live/gdgg.m3u8
-#EXTINF:-1 tvg-name="广东民生·备" group-title="广东",广东民生·备
 http://38.75.136.137:98/gslb/dsdqpub/gdgg.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="广东民生·备" group-title="广东",广东民生·备
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdms
+http://107.150.60.122/live/gdgg.m3u8
+#EXTINF:-1 tvg-name="广东民生·备" group-title="广东",广东民生·备
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdgg
 #EXTINF:-1 tvg-name="深圳卫视" group-title="广东",深圳卫视
+http://38.75.136.137:98/gslb/dsdqpub/szwshd.m3u8?auth=testpub
+#EXTINF:-1 tvg-name="深圳卫视·备" group-title="广东",深圳卫视·备
 http://107.150.60.122/live/szwshd.m3u8
 #EXTINF:-1 tvg-name="深圳卫视·备" group-title="广东",深圳卫视·备
 http://74.91.26.218:82/live/szwshd.m3u8
-#EXTINF:-1 tvg-name="深圳卫视·备" group-title="广东",深圳卫视·备
-http://124.228.160.112:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="广州综合" group-title="广东",广州综合
-http://38.75.136.137:98/gslb/dsdqpub/zonghes.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="广州综合·备" group-title="广东",广州综合·备
-http://38.75.136.137:98/gslb/dsdqpub/gzzonghe.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="广州综合·备" group-title="广东",广州综合·备
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gzzonghe
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=f0147ae6453a80f5989f382368b72aad&txTime=18d00acf487
 #EXTINF:-1 tvg-name="广州新闻" group-title="广东",广州新闻
 http://38.75.136.137:98/gslb/dsdqpub/gzxinwen.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="广州新闻·备" group-title="广东",广州新闻·备
-http://38.75.136.137:98/gslb/dsdqpub/xinwen.m3u8?auth=testpub
-#EXTINF:-1 tvg-name="广州新闻·备" group-title="广东",广州新闻·备
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gzxinwen
